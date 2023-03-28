@@ -1,6 +1,6 @@
-monitoring_workspace_users = "gcp-monitoring-admins@h327.net" #UPDATE_ME
+monitoring_workspace_users = "group_monitoring_user@simco.com" #UPDATE_ME
 
-remote_state_bucket = "bkt-prj-b-seed-tfstate-da54" #UPDATE_ME
+remote_state_bucket = "bkt-prj-b-seed-tfstate-888f" #UPDATE_ME
 
 env = "dev"
 environment_code = "d"
