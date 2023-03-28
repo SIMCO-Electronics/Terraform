@@ -44,8 +44,8 @@ module "org_audit_logs" {
     environment       = "production"
     application_name  = "org-logging"
     billing_code      = "production"
-    primary_contact   = "example1"
-    secondary_contact = "example2"
+    primary_contact   = "it"
+    secondary_contact = "brian"
     env_code          = "p"
   }
   budget_alert_pubsub_topic   = var.project_budget.org_audit_logs_alert_pubsub_topic
@@ -70,8 +70,8 @@ module "org_billing_logs" {
     environment       = "production"
     application_name  = "org-billing-logs"
     billing_code      = "production"
-    primary_contact   = "example1"
-    secondary_contact = "example2"
+    primary_contact   = "it"
+    secondary_contact = "brian"
     env_code          = "p"
   }
   budget_alert_pubsub_topic   = var.project_budget.org_billing_logs_alert_pubsub_topic
@@ -100,8 +100,8 @@ module "org_secrets" {
     environment       = "production"
     application_name  = "org-secrets"
     billing_code      = "production"
-    primary_contact   = "example1"
-    secondary_contact = "example2"
+    primary_contact   = "it"
+    secondary_contact = "brian"
     env_code          = "p"
   }
   budget_alert_pubsub_topic   = var.project_budget.org_secrets_alert_pubsub_topic

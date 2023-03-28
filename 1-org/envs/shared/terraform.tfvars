@@ -23,7 +23,7 @@ billing_data_users = "group_billing_users@simco.com"
 
 audit_data_users = "group_audit_users@simco.com"
 
-remote_state_bucket = "" #REPLACE
+remote_state_bucket = "bkt-prj-b-seed-tfstate-888f" #REPLACE
 
 project_budget = {
     org_secrets_budget_amount               = 1000
