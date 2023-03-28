@@ -1,18 +1,18 @@
-org_id = ""  #REPLACE
+org_id = "659606641909"  #REPLACE
 
-billing_account = "" #REPLACE
+billing_account = "014A88-F67EB8-F56E07" #REPLACE
 
-group_org_admins = "gcp-organization-admins@simco.com"
+group_org_admins = "gcp-org-admins@simco.com"
 
 group_billing_admins = "gcp-billing-admins@simco.com"
 
 default_region = "us-central1"
 
-parent_folder = ""  #REPLACE
+parent_folder = "555960767904"  #REPLACE
 
 groups = {
   create_groups = true,
-  billing_project = "", #REPLACE
+  billing_project = "billing-381615", #REPLACE
   required_groups = {
     group_org_admins           = "group_org_admins@simco.com"
     group_billing_admins       = "group_billing_admins@simco.com"
